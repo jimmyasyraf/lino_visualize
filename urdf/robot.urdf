@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<robot name="robot">
+    <link name="base_footprint">
+        <visual>
+            <origin xyz="0 0 0.135" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.35 0.24 0.15" />
+            </geometry>
+            <material name="white" >
+                <color rgba="1 1 1 1" />
+            </material>
+        </visual>
+
+        <visual>
+            <origin xyz="-0.0875 0 0.23" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.175 0.24 0.04" />
+            </geometry>
+            <material name="white" >
+                <color rgba="1 1 1 1" />
+            </material>
+        </visual>
+
+        <visual>
+            <origin xyz="0 0 0.27" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.35 0.24 0.04" />
+            </geometry>
+            <material name="white" >
+                <color rgba="1 1 1 1" />
+            </material>
+        </visual>
+
+        <visual>
+            <origin xyz="0 0 0.29" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.32 0.22 0.01" />
+            </geometry>
+            <material name="black" >
+                <color rgba="0.05 0.05 0.05 1" />
+            </material>
+        </visual>
+
+        <visual>
+            <origin xyz="0 -0.135 0.035" rpy="1.570795 0 0" />
+            <geometry>
+                <cylinder length="0.03" radius="0.035" />
+            </geometry>
+            <material name="black" >
+                <color rgba="0.05 0.05 0.05 1" />
+            </material>
+        </visual>
+
+        <visual>
+            <origin xyz="0 0.135 0.035" rpy="1.570795 0 0" />
+            <geometry>
+                <cylinder length="0.03" radius="0.035" />
+            </geometry>
+            <material name="black" >
+                <color rgba="0.05 0.05 0.05 1" />
+            </material>
+        </visual>
+    </link>
+</robot>

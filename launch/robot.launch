@@ -1,0 +1,5 @@
+<launch>
+  <param name="robot_description" textfile="$(find lino_visualize)/urdf/robot.urdf" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lino_visualize)/rviz/navigate.rviz" />
+</launch>
